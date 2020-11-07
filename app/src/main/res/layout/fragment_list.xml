@@ -43,103 +43,15 @@
                 android:layout_height="wrap_content"
                 android:text="@string/desc_header" />
 
-            <ImageView
-                android:id="@+id/imgsatu"
-                android:layout_width="match_parent"
-                android:layout_height="200dp"
-                android:layout_marginTop="10dp" />
+            <include layout="@layout/list_pertama" />
 
-            <TextView
-                android:id="@+id/tv_title_list_satu"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
-                android:text="title ke satu" />
+            <include layout="@layout/list_kedua"/>
 
-            <TextView
-                android:id="@+id/tv_desc_list_satu"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
-                android:text="desc ke satu" />
+           <include layout="@layout/list_ketiga"/>
 
-            <androidx.recyclerview.widget.RecyclerView
-                android:id="@+id/recycler_view_duat"
-                android:layout_width="match_parent"
-                android:layout_height="200dp"
-                android:layout_marginTop="10dp"/>
+            <include layout="@layout/listempat"/>
 
-            <TextView
-                android:id="@+id/tv_title_list_dua"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
-                android:text="title ke dua" />
-
-            <TextView
-                android:id="@+id/tv_desc_list_dua"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
-                android:text="desc ke dua" />
-
-            <ImageView
-                android:id="@+id/imgtiga"
-                android:layout_width="match_parent"
-                android:layout_height="200dp"
-                android:layout_marginTop="10dp" />
-
-            <TextView
-                android:id="@+id/tv_title_list_tiga"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
-                android:text="title ke tiga" />
-
-            <TextView
-                android:id="@+id/tv_desc_list_tiga"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
-                android:text="desc ke tiga" />
-
-            <androidx.recyclerview.widget.RecyclerView
-                android:layout_marginTop="10dp"
-                android:id="@+id/recycler_view_empat"
-                android:layout_width="match_parent"
-                android:layout_height="200dp"/>
-            <TextView
-                android:id="@+id/tv_title_list_empat"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
-                android:text="title ke empat" />
-
-            <TextView
-                android:id="@+id/tv_desc_list_empat"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
-                android:text="desc ke empat" />
-            <androidx.recyclerview.widget.RecyclerView
-                android:layout_marginTop="10dp"
-                android:id="@+id/recycler_view_lima"
-                android:layout_width="match_parent"
-                android:layout_height="200dp"/>
-            <TextView
-                android:id="@+id/tv_title_list_lima"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
-                android:text="title ke lima" />
-
-            <TextView
-                android:id="@+id/tv_desc_list_lima"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
-                android:text="desc ke lima"
-                android:layout_marginBottom="20dp"/>
+            <include layout="@layout/listlima"/>
         </LinearLayout>
     </androidx.core.widget.NestedScrollView>
 
