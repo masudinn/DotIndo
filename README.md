@@ -1,6 +1,6 @@
 # DotIndo
 
-## NO 1
+## No 1
  Apa saja library Android yang sering atau biasa anda pakai? Jelaskan kegunaannya bagi
 anda.
 1.retrofit,untuk mendapatkan data dari json
@@ -10,10 +10,12 @@ anda.
 
 ---
 
-## NO 2
+## No 2
 Apakah anda menggunakan prinsip clean code atau design pattern untuk project
 Android anda? Jelaskan penerapan clean code atau design pattern yang biasa anda
 gunakan dan manfaatnya untuk anda.
 Tergantung,kalo projectnya detail dan tidak simpel saya menggunakan design pattern
 Biasanya saya menggunakan mvvm dan mvp.Intinya design pattern itu memisahkan logic dari ui
 jadi di ui tidak ada logic dan ui tidak terbebani oleh logic
+
+---
