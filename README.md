@@ -16,6 +16,6 @@ Android anda? Jelaskan penerapan clean code atau design pattern yang biasa anda
 gunakan dan manfaatnya untuk anda.
 + Tergantung,kalo projectnya detail dan tidak simpel saya menggunakan design pattern
 + Biasanya saya menggunakan mvvm dan mvp.Intinya design pattern itu memisahkan logic dari ui
-+ jadi di ui tidak ada logic dan ui tidak terbebani oleh logic
+ jadi di ui tidak ada logic dan ui tidak terbebani oleh logic
 
 ---
