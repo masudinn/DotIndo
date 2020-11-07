@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".list.ListFragment">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.appbar.MaterialToolbar
+            android:id="@+id/topAppBar"
+            style="@style/Widget.MaterialComponents.Toolbar.Primary"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            app:title="List" />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_header"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/header"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/tv_desc_header"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/desc_header" />
+
+            <ImageView
+                android:id="@+id/imgsatu"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="10dp" />
+
+            <TextView
+                android:id="@+id/tv_title_list_satu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="title ke satu" />
+
+            <TextView
+                android:id="@+id/tv_desc_list_satu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="desc ke satu" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recycler_view_duat"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:id="@+id/tv_title_list_dua"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="title ke dua" />
+
+            <TextView
+                android:id="@+id/tv_desc_list_dua"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="desc ke dua" />
+
+            <ImageView
+                android:id="@+id/imgtiga"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="10dp" />
+
+            <TextView
+                android:id="@+id/tv_title_list_tiga"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="title ke tiga" />
+
+            <TextView
+                android:id="@+id/tv_desc_list_tiga"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="desc ke tiga" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:layout_marginTop="10dp"
+                android:id="@+id/recycler_view_empat"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"/>
+            <TextView
+                android:id="@+id/tv_title_list_empat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="title ke empat" />
+
+            <TextView
+                android:id="@+id/tv_desc_list_empat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="desc ke empat" />
+            <androidx.recyclerview.widget.RecyclerView
+                android:layout_marginTop="10dp"
+                android:id="@+id/recycler_view_lima"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"/>
+            <TextView
+                android:id="@+id/tv_title_list_lima"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="title ke lima" />
+
+            <TextView
+                android:id="@+id/tv_desc_list_lima"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="desc ke lima"
+                android:layout_marginBottom="20dp"/>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+</LinearLayout>
