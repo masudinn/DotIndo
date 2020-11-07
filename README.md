@@ -7,6 +7,8 @@ anda.
 + 2.cardview,untuk membuat tampilan yang bisa dicustom dengan bentuk card
 + 3.picasso,untuk mengambil data berupa gambar
 + 4.recyclerview,untuk membuat list dari sebuah data 
++ 5.material design,untuk mempercantik tampilan
++ 6.circleimage(hdodenhof),untuk membuat gambar menjadi lingkaran
 
 ---
 
